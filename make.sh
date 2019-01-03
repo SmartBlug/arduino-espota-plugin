@@ -29,6 +29,7 @@ javac -target 1.8 -cp "$pde_path:$core_path:$lib_path" \
 pushd bin
 mkdir -p $INSTALLDIR/tools
 rm -rf $INSTALLDIR/tools/ESP8266OTA
+#rm $INSTALLDIR/tools/ESP8266OTA/tool/esp8266OTA.jar
 mkdir -p $INSTALLDIR/tools/ESP8266OTA/tool
 zip -r $INSTALLDIR/tools/ESP8266OTA/tool/esp8266OTA.jar *
 popd
